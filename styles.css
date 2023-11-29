@@ -9,6 +9,13 @@ body{
     font-family: 'Roboto';
 }
 
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+
 header{
     display: flex;
     flex-grow: 0;
@@ -39,16 +46,50 @@ header ul {
     gap: 8px;
 }
 
-a {
-    text-decoration: none;
-}
+/*Main*/
+
 
 main{
     display: flex;
     flex-grow: 1;
+    flex-direction: column;
 }
 
+/*---hero---*/
+.hero {
+    display: flex;
+    background: #1F2937;
+    flex-grow: 1;
+}
+
+/*---infos---*/
+
+.infos{
+    flex-grow:1;
+}
+
+/*---quote---*/
+.quote{
+    flex-grow: 1;
+    background-color: #E5E7EB;
+}
+
+/*---signup---*/
+
+.sign-up{
+    flex-grow: 1;
+}
+
+
+/*Footer*/
 footer{
     display: flex;
     flex-grow: 0;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #E5E7EB;
 }
