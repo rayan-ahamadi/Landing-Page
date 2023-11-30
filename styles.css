@@ -106,6 +106,12 @@ main{
     padding: 15px;
 }
 
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937
+}
+
 .mugiwaras {
     display: flex;
     gap:20px
@@ -126,8 +132,29 @@ main{
 
 /*---quote---*/
 .quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-grow: 1;
     background-color: #E5E7EB;
+    padding: 60px;
+}
+
+.quote .text {
+    width: 60%;
+}
+
+p.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p.quote-author{
+    font-weight: bold;
+    text-align: end;
+    align-self: flex-end;
 }
 
 /*---signup---*/
