@@ -61,7 +61,7 @@ main{
     display: flex;
     background: #1F2937;
     flex-grow: 1;
-    padding:10px 10%;
+    padding:70px 10%;
     gap: 50px;
     align-items: center;
 }
